@@ -7,9 +7,10 @@
 		padding:0px;
 	}
 
+	
 	.drop-btn{
+		line-height: 200%;
 		display: block;
-		margin: 10px 50%;
 		font-family: simple-print;
 		color: #000;
 		font-size: 2em;
@@ -18,21 +19,24 @@
 	}
 
 	.dropdown{
-		margin-left:36%;
+		opacity: .2%;
+		margin-left:45%;
 		position: relative;
 		display: inline-block;
 	}
 
 	.dropdown-content{
-		margin-left:40%;
+		margin-left: 40%;
 		display: none;
 		position: absolute;
 		font-family: simple-print;
 		font-size:2em;
 	}
 
-	.dropdown-content:hover {
-		background-color
+	.dropdown:hover .dropdown-content {
+		display: block;
+		background-color:#fff;
+		margin:auto;
 	}
 
 	.dropdown-content a{
@@ -52,7 +56,6 @@
 	}
 
 	.nameplate{
-		margin-top: 20px;
 		font-weight: bold;
 		font-family: unica;
 		text-align: center;
