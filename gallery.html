@@ -3,6 +3,7 @@
 	<head>
 		<title>My Photos</title>
 		<link rel="stylesheet" type="text/css" href="style/css/style.css">
+		<link rel="stylesheet" type="text/css" href="style/css/zoom.css">
 		<meta name="viewport" content="width=device-width">
 	</head>
 
@@ -34,18 +35,18 @@
 		</header>
 
 		<div class="photo-gallery">
-			<a href="style/img/1.jpg" target="_blank"><img src="style/img/1.jpg" alt="image"></a>
-			<a href="style/img/2.jpg" target="_blank"><img src="style/img/2.jpg" alt="image"></a>
-			<a href="style/img/3.jpg" target="_blank"><img src="style/img/3.jpg" alt="image"></a>
-			<a href="style/img/4.jpg" target="_blank"><img src="style/img/4.jpg" alt="fourth-image"></a>
-			<a href="style/img/5.jpg" target="_blank"><img src="style/img/5.jpg" alt="fourth-image"></a>
-			<a href="style/img/6.jpg" target="_blank"><img src="style/img/6.jpg" alt="fourth-image"></a>
-			<a href="style/img/7.jpg" target="_blank"><img src="style/img/7.jpg" alt="fourth-image"></a>
-			<a href="style/img/8.jpg" target="_blank"><img src="style/img/8.jpg" alt="fourth-image"	></a>
-			<a href="style/img/9.jpg" target="_blank"><img src="style/img/9.jpg" alt="fourth-image" class="clear"></a>
-			<a href="style/img/10.jpg" target="_blank"><img src="style/img/10.jpg" alt="fourth-image"></a>
-			<a href="style/img/11.jpg" target="_blank"><img src="style/img/11.jpg" alt="fourth-image"></a>
-			<a href="style/img/12.jpg" target="_blank"><img src="style/img/12.jpg" alt="fourth-image"></a>
+			<img src="style/img/1.jpg" alt="image" data-action = 'zoom'>
+			<img src="style/img/2.jpg" alt="image" data-action = 'zoom'>
+			<img src="style/img/3.jpg" alt="image" data-action = 'zoom'>
+			<img src="style/img/4.jpg" alt="fourth-image" data-action = 'zoom'>
+			<img src="style/img/5.jpg" alt="fourth-image" data-action = 'zoom'>
+			<img src="style/img/6.jpg" alt="fourth-image" data-action = 'zoom'>
+			<img src="style/img/7.jpg" alt="fourth-image" data-action = 'zoom'>
+			<img src="style/img/8.jpg" alt="fourth-image" data-action = 'zoom'>
+			<img src="style/img/9.jpg" alt="fourth-image" class="clear" data-action = 'zoom'>
+			<img src="style/img/10.jpg" alt="fourth-image" data-action = 'zoom'>
+			<img src="style/img/11.jpg" alt="fourth-image" data-action = 'zoom'>
+			<img src="style/img/12.jpg" alt="fourth-image" data-action = 'zoom'>
 
 		</div>
 
@@ -59,8 +60,10 @@
 			<a href="https://twitter.com"><img src="style/img/twitter1.png" alt="twitter"></a>
 			<a href="https://instagram.com"><img src="style/img/Instagram.png" alt="insta"></a>
 		</div>
-
-		
 		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src = "style/css/js/zoom.js"></script>
+		<script src = "style/css/js/transition.js"></script>
 	</body>
 </html>

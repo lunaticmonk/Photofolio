@@ -3,6 +3,7 @@
 	<head>
 		<title>Portraits</title>
 		<link rel="stylesheet" type="text/css" href="style/css/style.css">
+		<link rel="stylesheet" type="text/css" href="style/css/zoom.css">
 		<meta name="viewport" content="width=device-width">
 	</head>
 
@@ -33,8 +34,8 @@
 		</header>
 
 		<div class="portrait-container">
-			<a href="style/img/7.jpg" target="_blank"><img src="style/img/7.jpg" alt="image-1"></a>
-			<a href="style/img/15.jpg"target="_blank"><img src="style/img/15.jpg"></a>
+			<img src="style/img/7.jpg" alt="image-1" data-action = 'zoom'>
+			<img src="style/img/15.jpg" data-action = 'zoom'>
 		</div>
 
 		<footer>
@@ -46,10 +47,12 @@
 			<a href="https://facebook.com"><img src="style/img/fb.png" alt="facebook"></a>
 			<a href="https://twitter.com"><img src="style/img/twitter1.png" alt="twitter"></a>
 			<a href="https://instagram.com"><img src="style/img/Instagram.png" alt="insta"></a>
-		</div>
-
-		
+		</div>		
 		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src = "style/css/js/zoom.js"></script>
+		<script src = "style/css/js/transition.js"></script>
 	</body>
 
 </html>
